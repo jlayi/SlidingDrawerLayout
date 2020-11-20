@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.android.tools.build:gradle:4.1.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -32,6 +32,6 @@ ext {
 
     appcompatVersion = '1.2.0'
 
-    testJunitVersion = '4.13'
+    testJunitVersion = '4.13.1'
     androidTestJunitVersion = '1.1.2'
 }
